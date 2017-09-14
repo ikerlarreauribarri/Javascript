@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ejercicio 11</title>
+
+	<script type="text/javascript">
+	
+	function mofificarColor(){
+		var id1=document.getElementById("uno");
+		var id2=document.getElementById("dos");
+		id1.style.color=document.miformulario.color.value;
+		id2.style.color=document.miformulario.color.value;
+	}
+	
+	</script>
+</head>
+<body>
+	
+	<form name ="miformulario" action="" method="get">
+		<input name="botonModificar" type="button" value="Modificar Color" onclick="modificarColor()"/>
+		<input name="color" type="text"/>
+	</form>
+	
+	<p><a href="#" id="uno" >enlace uno</a></p>
+	<p><a href="#" id="dos" >enlace dos</a></p>
+	<p><a href="#" id="tres" >enlace tres</a></p>
+	<p><a href="#" id="cuatro" >enlace cuatro</a></p>
+	<p><a href="#" id="cinco" >enlace cinco</a></p>
+	
+</body>
+</html>

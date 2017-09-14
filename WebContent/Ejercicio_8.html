@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ejercicio 8</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+	var numPar=[];
+	var salto=0;
+	
+	document.write('<table border = "2">')
+		document.write('<tbody>')
+			document.write('<tr>')
+				document.write('<td>')
+				 for(i=2;i<=100;i+=2){
+					document.write(i + ' ');
+					salto=salto+1;
+						if(salto==5){
+							document.write('</br>');
+							salto=0;
+						}
+				 }
+				document.write('</td>')
+			document.write('</tr>')
+		document.write('</tbody>')
+	document.write('</table>')
+	
+	</script>
+</body>
+</html>
